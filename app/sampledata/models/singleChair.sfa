@@ -1,0 +1,107 @@
+{
+  materials: [
+    {
+      name: 'circulargreen',
+      parameters: [
+        {
+          baseColor: 'singleChair2',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'woodfeet',
+      parameters: [
+        {
+          baseColor: 'singleChair1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Sand',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.83440000000000003,
+            0.79274,
+            0.68559999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/singleChair.obj',
+    name: 'singleChair',
+    recenter: 'root',
+    scale: 0.406696,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\singleChair2.jpg',
+      name: 'singleChair2',
+      pipeline_name: 'singleChair2.jpg',
+    },
+    {
+      file: 'sampledata/models\\singleChair1.jpg',
+      name: 'singleChair1',
+      pipeline_name: 'singleChair1.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

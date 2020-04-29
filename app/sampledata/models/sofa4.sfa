@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'sofa2_1_1',
+      parameters: [
+        {
+          baseColor: 'mufiber03',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.447214,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/sofa4.obj',
+    name: 'sofa4',
+    recenter: 'root',
+    scale: 0.013506000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\mufiber03.png',
+      name: 'mufiber03',
+      pipeline_name: 'mufiber03.png',
+    },
+  ],
+  version: '0.54:2',
+}

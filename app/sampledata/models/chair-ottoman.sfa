@@ -1,0 +1,68 @@
+{
+  materials: [
+    {
+      name: 'Chair_wood',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.65982200000000002,
+            0.44178499999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Leather',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.53600000000000003,
+            0.27200000000000002,
+            0.14399999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.20190900000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/chair-ottoman.obj',
+    name: 'chair-ottoman',
+    recenter: 'root',
+    scale: 0.20716000000000001,
+  },
+  version: '0.54:2',
+}

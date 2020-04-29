@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginbackground">
+    <ImageView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Login"
+        android:src="@drawable/output_onlinepngtools"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Username"/>
+    <EditText
+        android:id="@+id/username_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="100dp"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/password_txt"
+        android:importantForAutofill="no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="textPassword"
+        android:ems="10" />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textColor="#3F51B5"
+        android:text="Login"
+        android:layout_alignParentTop="false"
+        />
+
+    <Button
+        android:id="@+id/newUser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"
+        android:text="New User ?"
+        android:textColor="#3F51B5"
+        android:textSize="15dp" />
+
+    <!--<TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Your Space, Your Design.... "
+        android:textSize="15dp"
+        android:textStyle="italic | bold"
+        android:layout_gravity="center"/>-->
+
+
+    <TextView
+        android:id="@+id/failedLogin_txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:textColor="#FF0000"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newUser_btn" />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/bcg6jpg">
+    <ImageView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Login"
+
+        android:src="@drawable/output_onlinepngtools"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+<TextView
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="20dp"
+    android:textColor ="#FFF"
+    android:text="Enter Preferred Username"/>
+<EditText
+    android:id="@+id/regUserName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:importantForAutofill="no"
+    android:layout_marginLeft="100dp"
+    android:textColor ="#FFF"
+    android:ems="10"/>
+<TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:importantForAutofill="no"
+    android:textColor ="#FFF"
+    android:text="Enter Email"
+    android:layout_marginLeft="100dp" />
+<EditText
+    android:id="@+id/regEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:textColor ="#FFF"
+    android:ems="10" />
+<TextView
+    android:id="@+id/password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor ="#FFF"
+    android:text="Enter Password"
+    android:layout_marginLeft="100dp" />
+<EditText
+    android:id="@+id/regPassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:importantForAutofill="no"
+    android:textColor ="#FFF"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+<TextView
+    android:id="@+id/confirmpassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Confirm Password"
+    android:textColor ="#FFF"
+    android:layout_marginLeft="100dp" />
+<EditText
+    android:id="@+id/regConfPass"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor ="#FFF"
+    android:inputType="textPassword"
+    android:importantForAutofill="no"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+
+
+<Button
+    android:id="@+id/register_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:text="@string/register" />
+
+</LinearLayout>

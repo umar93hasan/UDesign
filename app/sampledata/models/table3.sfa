@@ -1,0 +1,75 @@
+{
+  materials: [
+    {
+      name: 'metall',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.050195999999999998,
+            0.050195999999999998,
+            0.050195999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'mesa_recta_telas_telas_gr.jpg',
+      parameters: [
+        {
+          baseColor: 'telas_groges',
+        },
+        {
+          baseColorTint: [
+            0.51137299999999997,
+            0.51137299999999997,
+            0.51137299999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/table3.obj',
+    name: 'table3',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\telas_groges.jpg',
+      name: 'telas_groges',
+      pipeline_name: 'telas_groges.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,177 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.numad19f.udesign"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 3
+        versionName "3.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-storage:16.0.4'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.code.gson:gson:2.4'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.13.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+
+}
+
+sceneform.asset('sampledata/models/couchPoofyPillows.obj',
+        'default',
+        'sampledata/models/couchPoofyPillows.sfa',
+        'src/main/res/raw/couchpoofypillows')
+
+sceneform.asset('sampledata/models/singleChair.obj',
+        'default',
+        'sampledata/models/singleChair.sfa',
+        'src/main/res/raw/singlechair')
+
+sceneform.asset('sampledata/models/armchair_wing.obj',
+        'default',
+        'sampledata/models/armchair_wing.sfa',
+        'src/main/res/raw/armchair_wing')
+
+sceneform.asset('sampledata/models/barCusisine.obj',
+        'default',
+        'sampledata/models/barCusisine.sfa',
+        'src/main/res/raw/barcusisine')
+
+sceneform.asset('sampledata/models/sofa4.obj',
+        'default',
+        'sampledata/models/sofa4.sfa',
+        'src/main/res/raw/sofa2')
+
+sceneform.asset('sampledata/models/chaiseOrange.obj',
+        'default',
+        'sampledata/models/chaiseOrange.sfa',
+        'src/main/assets/chaiseorange')
+
+sceneform.asset('sampledata/models/tabouret.obj',
+        'default',
+        'sampledata/models/tabouret.sfa',
+        'src/main/res/raw/tabouret')
+
+sceneform.asset('sampledata/models/tableBasseBois.obj',
+        'default',
+        'sampledata/models/tableBasseBois.sfa',
+        'src/main/res/raw/table11')
+
+sceneform.asset('sampledata/models/cassettieraW.obj',
+        'default',
+        'sampledata/models/cassettieraW.sfa',
+        'src/main/res/raw/shelf')
+
+sceneform.asset('sampledata/models/TVCenter.obj',
+        'default',
+        'sampledata/models/TVCenter.sfa',
+        'src/main/raw/res/tventer')
+
+sceneform.asset('sampledata/models/cabinet.obj',
+        'default',
+        'sampledata/models/cabinet.sfa',
+        'src/main/res/raw/cabinet')
+
+sceneform.asset('sampledata/models/lit.obj',
+        'default',
+        'sampledata/models/lit.sfa',
+        'src/main/res/raw/bed')
+
+sceneform.asset('sampledata/models/captainsBed.obj',
+        'default',
+        'sampledata/models/captainsBed.sfa',
+        'src/main/res/raw/bed2')
+
+sceneform.asset('sampledata/models/comodinoAzzurro.obj',
+        'default',
+        'sampledata/models/comodinoAzzurro.sfa',
+        'src/main/res/raw/bluecabinet')
+
+sceneform.asset('sampledata/models/monitorLCD.obj',
+        'default',
+        'sampledata/models/monitorLCD.sfa',
+        'src/main/res/raw/tv')
+
+sceneform.asset('sampledata/models/lamp.obj',
+        'default',
+        'sampledata/models/lamp.sfa',
+        'src/main/res/raw/lamp')
+
+sceneform.asset('sampledata/models/lavello_doppio_Scene.obj',
+        'default',
+        'sampledata/models/lavello_doppio_Scene.sfa',
+        'src/main/res/raw/cabinet3')
+
+sceneform.asset('sampledata/models/potplant2.obj',
+        'default',
+        'sampledata/models/potplant2.sfa',
+        'src/main/res/raw/plant1')
+
+sceneform.asset('sampledata/models/flowers.obj',
+        'default',
+        'sampledata/models/flowers.sfa',
+        'src/main/res/raw/plant2')
+
+sceneform.asset('sampledata/models/bench.obj',
+        'default',
+        'sampledata/models/bench.sfa',
+        'src/main/res/raw/bench')
+
+sceneform.asset('sampledata/models/palm.obj',
+        'default',
+        'sampledata/models/palm.sfa',
+        'src/main/res/raw/tree')
+
+sceneform.asset('sampledata/models/maceta.obj',
+        'default',
+        'sampledata/models/maceta.sfa',
+        'src/main/res/raw/plant3')
+
+sceneform.asset('sampledata/models/TVCenter.obj',
+        'default',
+        'sampledata/models/TVCenter.sfa',
+        'src/main/res/raw/tvcenter')
+
+sceneform.asset('sampledata/models/table3.obj',
+        'default',
+        'sampledata/models/table3.sfa',
+        'src/main/res/raw/tablenew')
+
+sceneform.asset('sampledata/models/chair-ottoman.obj',
+        'default',
+        'sampledata/models/chair-ottoman.sfa',
+        'src/main/res/raw/tabo')

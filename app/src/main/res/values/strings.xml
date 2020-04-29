@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UDesign</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User ?</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="email">email</string>
+    <string name="register">Register</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="top_liked">Top Liked</string>
+
+    <string name="getdata">GetData</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="select_or_capture_image">Select/Capture Image</string>
+    <string name="post">Post</string>
+    <string name="logout">Logout</string>
+    <string name="create_design">Create Design</string>
+    <string name="posts">Posts</string>
+    <string name="post_title">Post Title</string>
+    <string name="post_body">Post Body</string>
+    <string name="post_by">Post By</string>
+    <string name="submit">Submit</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="new_post">New Post</string>
+</resources>

@@ -1,0 +1,107 @@
+{
+  materials: [
+    {
+      name: 'Sand',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.83440000000000003,
+            0.79274,
+            0.68559999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'woodfeet',
+      parameters: [
+        {
+          baseColor: 'couchPoofyPillows2',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'circulargreen',
+      parameters: [
+        {
+          baseColor: 'couchPoofyPillows1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/couchPoofyPillows.obj',
+    name: 'couchPoofyPillows',
+    recenter: 'root',
+    scale: 0.42246299999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\couchPoofyPillows2.jpg',
+      name: 'couchPoofyPillows2',
+      pipeline_name: 'couchPoofyPillows2.jpg',
+    },
+    {
+      file: 'sampledata/models\\couchPoofyPillows1.jpg',
+      name: 'couchPoofyPillows1',
+      pipeline_name: 'couchPoofyPillows1.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

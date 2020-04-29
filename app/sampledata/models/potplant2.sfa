@@ -1,0 +1,102 @@
+{
+  materials: [
+    {
+      name: 'Potplant2_1',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.17999999999999999,
+            0.35999999999999999,
+            0.13,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 0.19611600000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Potplant2_2',
+      parameters: [
+        {
+          baseColor: '0010',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.58815899999999999,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Potplant2_3',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.23999999999999999,
+            0.14999999999999999,
+            0.02,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.64457900000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/potplant2.obj',
+    name: 'potplant2',
+    recenter: 'root',
+    scale: 0.011716000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\0010.png',
+      name: '0010',
+      pipeline_name: '0010.png',
+    },
+  ],
+  version: '0.54:2',
+}

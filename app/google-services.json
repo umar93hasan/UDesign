@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1048252221416",
+    "firebase_url": "https://udesign-1e9fb.firebaseio.com",
+    "project_id": "udesign-1e9fb",
+    "storage_bucket": "udesign-1e9fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048252221416:android:d9c6183859a5ec211b065d",
+        "android_client_info": {
+          "package_name": "com.numad19f.udesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048252221416-d718ceevs0u483m7aa53m388p2ancden.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.numad19f.udesign",
+            "certificate_hash": "58a92e64127e0d51b7ae467e6276b10a44278348"
+          }
+        },
+        {
+          "client_id": "1048252221416-a2gt4lkl6664stn05i21g3v6sdhj8t8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7oMaRlq_cSACGSDYtwrRTq_wiFRVq3jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048252221416-a2gt4lkl6664stn05i21g3v6sdhj8t8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

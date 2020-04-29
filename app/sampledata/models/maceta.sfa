@@ -1,0 +1,101 @@
+{
+  materials: [
+    {
+      name: 'tierra_maceta',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.31402099999999999,
+            0.236591,
+            0.16750399999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.19079499999999999,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'leaf_paloagua.jpg',
+      parameters: [
+        {
+          baseColor: 'paloagua',
+        },
+        {
+          baseColorTint: [
+            0.071398000000000003,
+            0.34357599999999999,
+            0.0093699999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.119007,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'maceta',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.433616,
+            0.24790599999999999,
+            0.082205,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/maceta.obj',
+    name: 'maceta',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\paloagua.jpg',
+      name: 'paloagua',
+      pipeline_name: 'paloagua.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

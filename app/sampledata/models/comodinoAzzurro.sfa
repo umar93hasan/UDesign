@@ -1,0 +1,128 @@
+{
+  materials: [
+    {
+      name: 'Box35_1',
+      parameters: [
+        {
+          baseColor: 'lightWood',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Box36_2',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0,
+            0.64710000000000001,
+            0.88629999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'ChamferBox36_3',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.1137,
+            0.32940000000000003,
+            0.77649999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Line63_4',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.23570199999999999,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/comodinoAzzurro.obj',
+    name: 'comodinoAzzurro',
+    recenter: 'root',
+    scale: 0.023529000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\lightWood.jpg',
+      name: 'lightWood',
+      pipeline_name: 'lightWood.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
